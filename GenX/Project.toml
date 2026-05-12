@@ -1,0 +1,4 @@
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GenX = "5d317b1e-30ec-4ed6-a8ce-8d2d88d7cfac"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
