@@ -1,8 +1,8 @@
 # GenX-Fusion
 
-This version of GenX is modified from the version used in MIT's "The Role of Fusion Energy in a Decarbonized Electricity System" paper. The main difference is in how thermal energy storage is treated in the cost accounting (this modification was developed by Nicolas Trosino), which makes it so that thermal energy storage is a more economical investment.
+This version of GenX is modified from the version used in MIT's "The Role of Fusion Energy in a Decarbonized Electricity System" paper. The main difference is in how thermal energy storage is treated in the cost accounting (this modification was developed by Nicolas Trosino). For a fusion power plant integrated with thermal energy storage (FPP+TES), additions of TES capacity should be cost-differentiated from more expensive additions of FPP capacity, which is what this major modification does. With this modeling change, thermal energy storage becomes a more feasible investment as it is no longer wrongly attributed with the expensive FPP investment cost.
 
-Minor additions to the code were added in addition to this major modification for the purpose of capacity-accrediting thermal energy storage integrated with a fusion reactor - the subject of my thesis for MIT's Technology & Policy Program. These minor additions of code enable the modeler to precisely control the parameters of the integrated fusion power plant + thermal energy storage (FPP+TES) resource, which allows us to understand how different configurations of FPP+TES contribute to grid reliability.
+Minor additions to the code were added in addition to this major modification for the purpose of capacity-accrediting thermal energy storage integrated with a fusion reactor - the subject of my thesis for MIT's Technology & Policy Program. These minor additions of code enable the modeler to precisely control the parameters of the FPP+TES resource, which allows us to understand how different configurations of FPP+TES contribute to grid reliability.
 
 See the following directory for different scenario setups:
 fusion_paper/paper_runs/dual_runs/final_report_runs/thermstor_1year/Scenarios
