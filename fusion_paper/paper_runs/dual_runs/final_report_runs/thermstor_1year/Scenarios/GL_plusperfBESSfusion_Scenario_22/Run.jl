@@ -301,16 +301,6 @@ for idx in task_id+1:num_tasks:length(reduced_cases)
     ########################
 
 
-    ########################
-    #### For when I run the EC model with CC constraint
-    # Have 1 + num of gen simulations to calculate the CCs, put in a list with the same index as in Generators_data.csv
-    # Locate the basecase results and extract the EO_accredited_capacity
-
-
-    #@constraint(EP, cEO_CC_equal_EC_CC, CC_vector .* EP[:eEndCap] >= old value to fetch from past results)
-
-    ########################
-
     ## Solve model
     println("Solving Model")
     EP, solve_time = solve_model(EP, mysetup)
