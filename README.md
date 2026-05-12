@@ -4,8 +4,10 @@ This version of GenX is modified from the version used in MIT's "The Role of Fus
 
 Minor additions to the code were added in addition to this major modification for the purpose of capacity-accrediting thermal energy storage integrated with a fusion reactor - the subject of my thesis for MIT's Technology & Policy Program. These minor additions of code enable the modeler to precisely control the parameters of the FPP+TES resource, which allows us to understand how different configurations of FPP+TES contribute to grid reliability.
 
-See the following directory for different scenario setups:
+See the following directory for scenario setup:
 fusion_paper/paper_runs/dual_runs/final_report_runs/thermstor_1year/Scenarios
+
+NOTE: If wanting to add a new fusion resource to Generators_data.csv and Fusion_data.csv input files, start the resource name with "fusion".
 
 # GenX 
 [![Build Status](https://travis-ci.com/GenXProject/GenX.svg?branch=main)](https://travis-ci.com/GenXProject/GenX)
