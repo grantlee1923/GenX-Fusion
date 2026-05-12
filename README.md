@@ -1,4 +1,12 @@
-# GenX
+# GenX-Fusion
+
+This version of GenX is modified from the version used in MIT's "The Role of Fusion Energy in a Decarbonized Electricity System" paper. The main difference is in how thermal energy storage is treated in the cost accounting (this modification was developed by Nicolas Trosino), which makes it so that thermal energy storage is a more economical investment.
+
+Minor additions to the code were added in addition to this major modification for the purpose of capacity-accrediting thermal energy storage integrated with a fusion reactor - the subject of my thesis for MIT's Technology & Policy Program. These minor additions of code enable the modeler to precisely control the parameters of the integrated fusion power plant + thermal energy storage (FPP+TES) resource, which allows us to understand how different configurations of FPP+TES contribute to grid reliability.
+
+See the following directory for different scenario setups:
+fusion_paper/paper_runs/dual_runs/final_report_runs/thermstor_1year/Scenarios
+
 # GenX 
 [![Build Status](https://travis-ci.com/GenXProject/GenX.svg?branch=main)](https://travis-ci.com/GenXProject/GenX)
 [![Coverage Status](https://coveralls.io/repos/github/GenXProject/GenX/badge.svg?branch=main)](https://coveralls.io/github/GenXProject/GenX?branch=main)
